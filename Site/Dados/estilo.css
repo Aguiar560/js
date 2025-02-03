@@ -1,0 +1,58 @@
+body{
+    background-color: #3b6d93;
+    font: normal 15pt Arial;
+}
+header{
+    color:aliceblue;
+    text-align: center;
+}
+section{
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.551);  
+}
+footer{
+    color: aliceblue;
+    font-style: italic;
+    font-size: large;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    }
+
+#dadosimg img{
+    padding: 5px;
+}
+#nundados{
+    margin: 30px;
+    padding: 40px;
+}
+#dado{
+    padding: 11px;
+    background-color: rgb(235, 10, 10);
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+}
+#dado:hover{
+    background-color: rgb(192, 10, 1);
+}
+#dado:active{
+    background-color: rgb(235, 10, 10);
+}
+#numeros{
+    padding: 7px;
+    font-weight: bold;
+    font-size: 12pt;
+    text-align: center;
+    width: 50px;
+}
+label{
+    font-weight: bold;
+    font-size: 17pt;
+}

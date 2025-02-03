@@ -1,0 +1,40 @@
+body{
+    overflow: hidden;
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    font: normal 20pt Arial;
+    height: 80px;
+    padding: 20px;
+    line-height: 10px;
+    border-style:double;
+    background-color: #3b6d93;
+}
+footer{
+    width: 97.9%;
+    font: Italic 15pt Arial;  
+    bottom: 0;
+    position: fixed;
+    text-align: center;
+}
+.cabeça{
+    text-align: center;
+    color:azure
+
+}
+.h1{
+    margin: 30px;
+}
+.trabalhos{
+    border-style:ridge;
+    width: 150px;
+    background-color: rgba(122, 122, 122, 0.068);
+    padding: 18px;
+    border-radius: 10px;
+    margin-inline-start: 20px;
+    border: none;
+
+}

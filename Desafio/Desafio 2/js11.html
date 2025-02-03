@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analisador de Números</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="shortcut icon" href="favicon-16x16.png" type="image/x-icon">
+</head>
+<body>
+    
+    <header>
+        <h1>Analisando Números</h1>
+    </header>
+    <section>
+        <p>Número entre 1 e 1000: 
+            <input type="number" name="adicionar" id="numero" placeholder="Adicione um número"> 
+            <input type="button" value="Adicionar" id="adicionar" onclick="adicionar()">
+        </p>
+            
+        <select id="tabela" size="10" > </select>
+        <div class="input-container">
+            <div class="label">Números Pares</div>
+        <select id="segunda" size="10"></select>
+        </div>
+        <div class="input-container2">
+            <div class="label2">Números Impares</div>
+        <select id="terceira" size="10"></select></div>
+        <div id="finalizar">
+            <input type="button" value="Finalizar" id="finalizacao" onclick="finalizar()">
+            <input type="button" value="Limpar" id="limpar" onclick="limpar()">
+        <div id="res">
+            
+        </div>
+        <div>
+           
+        </div>
+    </section>
+    <footer>
+        <p>&copy; Rafael Aguiar </p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

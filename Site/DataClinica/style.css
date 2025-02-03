@@ -1,0 +1,119 @@
+
+body{
+    background-color: rgba(248, 247, 216, 0.671);
+    width: 500px;
+    height: 100%;
+    margin: auto;
+}
+section{
+    
+    text-align: center;
+    width: 400px;
+    height: 500px;
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 150px;
+    Background-image: linear-gradient(to right,#f2edae,#F2ECCE,#fcfbe1);
+    box-shadow: 0px 4px 20px #85836e;
+    
+}
+footer{
+    color: aliceblue;
+    font-style: italic;
+    font-size: large;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    margin-top: 152px;
+    }
+h1{
+    color: blueviolet;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 38px;
+}
+option1{
+    padding-top: 100px;
+    margin-top: 30px;
+}
+.local1{
+    font-size: 2em;
+    margin-bottom: -8px;
+    right: 110px;
+    position: relative;
+    color: blueviolet;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 28px;
+    
+}
+.username1{
+    font-size: 2em;
+    margin-bottom: -8px;
+    right: 82px;
+    position: relative;
+    color: blueviolet;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 28px;
+}
+.senha1{
+    font-size: 2em;
+    margin-bottom: -8px;
+    right: 103px;
+    position: relative;
+    color: blueviolet;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 28px;
+}
+.local2{
+    width: 320px;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 20px;
+    border: none;
+    margin-top: -33px;
+    padding-left: 20px;
+    
+}
+.username2{
+    width: 300px;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 20px;
+    border: none;
+    margin-top: -33px;
+    padding-left: 20px;
+}
+.senha2{
+    width: 300px;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 20px;
+    border: none;
+    margin-top: -33px;
+    padding-left: 20px;
+}
+.entrar{
+    width: 320px;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 20px;
+    border: none;
+    margin-top: 10px;
+    background-color:rgb(109, 17, 196) ;
+    color: yellow;
+    cursor: pointer;
+    font-family: 'Rajdhani', sans-serif;
+}
+.entrar:hover{
+    background-color: blueviolet;
+}
+.entrar:active{
+    background-color: rgb(109, 17, 196);
+    ;
+}
+footer > a{
+    position: fixed;
+    left: 0;
+}
+
+

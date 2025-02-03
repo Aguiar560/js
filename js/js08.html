@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste</title>
+    <style>
+        div{
+           font: italic 20pt Arial;
+           color: blue; 
+           background-color: rgb(79, 130, 28);
+           width: 550px;
+           height:65px;
+           text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="nome">
+    <h1> SOMA</h1></div>
+    <div id="tabela">
+    <input type="number"  id="numero1" placeholder="Digite um número">
+    <input type="number"  id="numero2" placeholder="Digite um número">
+    <input type="button" value="SOMAR" onclick="somar()">
+    </div>
+   <div id="res"><strong>Resultado</strong></div> 
+<script>
+   function somar(){
+        var n1 = Number(document.getElementById('numero1').value)
+        var n2 = Number(document.getElementById('numero2').value)
+        var res= document.querySelector('div#res')
+        var soma = n1 + n2
+        res.innerHTML=`Resultado: <strong>${soma}</strong>.`
+    }
+    var area = document.querySelector('div#tabela')
+    area.addEventListener('mouseenter', entrar);
+    area.addEventListener('mouseout', sair);
+    function entrar(){
+        area.style.backgroundColor='red'
+    }
+    function sair(){
+        area.style.backgroundColor='rgb(79, 130, 28)'
+        
+    }
+</script>
+<div id="País">
+    <h2> FILTRAR</h2>
+    <select id="filtrarid">
+    <option value="br">BRASIL</option>
+    <option value="esp">ESPANHA</option>
+    <option value="pt">PORTUGAL</option>
+    </select>
+</div>
+</body>
+</html>

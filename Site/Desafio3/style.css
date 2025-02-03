@@ -1,0 +1,36 @@
+header{
+    text-align: center;
+    color:rgb(255, 240, 241);
+    
+}
+body{
+    text-align: center;
+    background-color:  #3b6d93;   
+}
+section{
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 10px;
+    margin: auto;
+    width: 600px;
+}
+input{
+    width: 100px;
+    height: 50px;
+
+}
+footer{
+    color: aliceblue;
+    font-style: italic;
+    font-size: large;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    text-align: left;
+}
+button:hover{
+    background-color: azure;
+
+}
+

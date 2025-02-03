@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste</title>
+</head>
+<body>
+    <h1>Testando a velocidade</h1>
+    A sua velocidade é: <input type="number" id="velocidade"> Km/h 
+    <input type="button" value="Verificar" onclick="calcular()">
+    <div id="resultado">
+
+    </div>
+    <script>
+        function calcular(){
+        var vel = Number(document.getElementById('velocidade').value)
+        var res = document.getElementById('resultado')
+        res.innerHTML = `A sua velocidade atual é ${vel}km/h.`
+        if(vel > 100 ){
+        res.innerHTML = `MULTADO, sua velocidade é: ${vel}`
+     }
+    }
+    
+    </script>
+
+    
+    
+</body>
+</html>
