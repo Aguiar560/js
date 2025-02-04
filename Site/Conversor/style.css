@@ -1,0 +1,78 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(255, 255, 255) ;
+}
+header{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.5em;
+    font-family: sans-serif;  
+}
+section{
+    width: 90%;
+    height: 800px;
+    background-color: rgb(247, 246, 235);
+    margin:auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px black;
+    display: flex;
+}
+.temp{
+    display: inline-block; 
+    color: black;
+    border: 1px solid black;
+    margin: 3%;
+    width: 20%;
+    height: 30%;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 4px black;
+    background-color: rgb(176, 200, 250) 
+}
+.temp h1,p{
+    font-family: sans-serif;
+    font-size: 2em;
+    text-align: center;
+    background-color: rgb(176, 200, 250)   
+}
+.temp #numero,#medida{
+    width: 80px;
+    height: 70px;
+    font-size: 2em;
+    text-align: center;
+    margin-left: 26%;
+    margin-top: 10%;
+    border-radius: 5px;
+    border: 1px solid rgb(176, 200, 250);
+    display: inline-block;
+    background-color: rgb(230, 231, 233);
+    box-shadow: 0px 0px 4px black;
+}
+.temp .converter{
+    background-color: rgb(230, 231, 233);
+    width: 80px;
+    height: 58px;
+    font-size: 0.9em;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    margin-top: 56px;
+    display: inline-block;
+    border: 1px solid rgb(176, 200, 250);
+    box-shadow: 0px 0px 4px black;   
+    cursor: pointer;
+    font-family: sans-serif;
+    font-weight: bolder;
+    color: rgba(0, 0, 0, 0.555);
+}
+.temp p{
+    margin-top: 15px
+}
+.converter:hover{
+    background-color:rgb(186, 187, 189)
+}
+.converter:active{
+    background-color: rgba(186, 187, 189, 0.322)
+
+}
