@@ -12,35 +12,22 @@
     </header>
     <section>
         <div class="temp">
-            <h1>Celsius-Fahrenheit</h1>
+            <h1>Temperatura</h1>
             <input type="number" id="numero" required>
-            <input type="button" value="Converter" onclick="converter()" class="converter">
+            <input type="button" value="Converter" onclick="converter()" class="converter"><br>
+            <input type="radio" name="sexo" id="cels" class="radio">Celsius 👉🏻Farenheit<br>
+            <input type="radio" name="sexo" id="far" class="radio">Farenheit 👉🏻 Celsius
             <p id="res"> </p>
         </div>
         <div class="temp">
-            <h1>Km/h - m/s</h1>
+            <h1>Velocidade</h1>
             <input type="number" id="medida" >
-            <input type="button" value="Converter" onclick="metrar()" class="converter">
+            <input type="button" value="Converter" onclick="metrar()" class="converter"><br>
+            <input type="radio" name="sexo" id="km" class="radio">Km/hr 👉🏻 M/s<br>
+            <input type="radio" name="sexo" id="met"class="radio">M/s 👉🏻 Km/h
             <p id="result"> </p>
         </div>
-
-
-
     </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     <script src="conversor.js"></script>
 </body>
 </html>
