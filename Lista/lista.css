@@ -1,0 +1,76 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: lightgreen;
+    Background-image: linear-gradient(to right,#f2edae,#F2ECCE,#fcfbe1);
+}
+
+section{
+    box-shadow: 0px 0px 5px black;
+    width: 35%;
+    margin: auto;
+    background-color: white; 
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    margin-top:150px;   
+}
+h1{
+    text-align: center;
+    margin: 30px;
+}
+#item{
+    margin: auto;
+    width: 80%;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    background-color: aqua;
+    padding-left: 10px;
+    font-size: 15px;
+    box-shadow: 0px 0px 2px black;
+    display: block;
+}
+#adicionar{
+    display: block;
+    margin: auto;
+    border-radius: 5px;
+    width: 90px;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+    background-color:blueviolet;
+    color: yellow;
+}
+#mensagem{
+    text-align: center;
+    margin-top: 20px;
+    
+}
+#itensADD{
+    margin: 10px;
+    list-style: none;
+}
+#itensADD > li{
+    text-align: center;
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+    margin-top: 5px;
+    background-color: lightslategray;   
+    font-size: 22px;
+    height: 30px;
+}
+.remover,.editar{
+    margin-left: 10px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 5px 10px;
+    border: none;
+    left: 150px;
+    position: relative;
+    
+}
