@@ -4,7 +4,7 @@ function adicionar(input){
 }
 
 function calcular(){                            
-    try{                                               
+    try{                                              
         display.value = eval(display.value)              //codigo que pode haver erro
     }catch(error){
          display.value = "Error"                        //caso haja erro executa essa linha

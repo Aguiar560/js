@@ -1,0 +1,19 @@
+<!-- Crie um campo de texto e um botão que converte o conteúdo digitado para maiúsculas-->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex8</title>
+</head>
+<body>
+    <p id="p1">eae como vc esta?</p>
+    <button onclick="mudar()">Mudar</button>
+    <script>
+        function mudar(){
+            let pa = document.getElementById('p1')
+            pa.innerHTML = pa.innerHTML.toUpperCase()
+        }
+    </script>
+</body>
+</html>
