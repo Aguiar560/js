@@ -1,0 +1,23 @@
+@media screen and (min-width: 768px){
+
+#hamb{
+    display: none;   
+}
+
+nav > ol > li{
+    display: inline-block;
+    border: none;
+    background-color: rgb(112, 128, 145);
+    margin-right: -4px;
+}
+nav > ol > li:hover{
+    background-color: rgb(151, 171, 192);
+}
+nav{
+    text-align: left;      
+}
+main{
+    width: 60vw;
+}
+}
+    

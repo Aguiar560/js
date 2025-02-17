@@ -1,0 +1,54 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+h1{ 
+    text-align: center;
+    background-color: grey;
+    padding: 10px;
+}
+#hamb{
+    display: block;
+    text-align: center;
+    background-color: lightslategray;
+    padding: 5px;
+    cursor: pointer;
+}
+#hamb:hover{
+    background-color: black;
+    color: lightslategray;
+}
+nav{
+    background-color: lightslategray;
+    text-align: center;
+  
+}
+nav > ol > li {
+    border: 1px solid rgba(0, 0, 0, 0.295);
+    padding: 10px;
+}
+nav > ol > li:hover{
+    background-color: rgb(144, 166, 187);
+}
+nav > ol > li > a{
+    text-decoration: none;
+    color: white;    
+}
+main{
+    display: block;
+    text-align: justify;
+    width: 90vw;
+    margin: auto;
+    margin-top: 20px;
+    background-color: grey;
+    color: white;
+    border-radius: 10px;
+    text-indent: 10px;
+    padding: 10px;
+    }
+main > p{
+    margin-bottom: 20px;
+    font-size: 1.2em;
+    line-height: 1.3em;
+    }

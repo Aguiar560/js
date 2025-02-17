@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="todos.css">
+</head>
+<body onresize="corpo()">
+    <h1>Teste</h1>
+    <span id="hamb" class="material-symbols-outlined" onclick="aparecerMenu()">menu</span>
+    <nav id="id">
+        <ol>
+            <li><a href="#">Opcao 1</a></li>
+            <li><a href="#">Opcao 2</a></li>
+            <li><a href="#">Opcao 3</a></li>
+            <li><a href="#">Opcao 4</a></li>
+            <li><a href="#">Opcao 5</a></li>
+        </ol>
+    </nav>
+    <main>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo qui, aliquam vero ex error reiciendis porro tenetur voluptate consequatur officia aliquid, temporibus ratione neque et voluptates quisquam, dolore incidunt facilis. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident eum rem unde, eligendi adipisci officiis alias cumque vel soluta laboriosam fuga nobis minima ullam ipsam obcaecati iusto ad, suscipit dignissimos.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab soluta, exercitationem alias minima libero aliquam inventore deleniti. Illum dignissimos consectetur explicabo ut ab est quaerat unde dolores ipsa non.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id quibusdam voluptates sed non quam? Necessitatibus aliquid enim optio dignissimos sapiente aspernatur, fuga possimus, minus delectus quas laboriosam culpa, saepe quis. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti ducimus quia ut magni praesentium asperiores harum, labore enim animi ipsum quis et veritatis exercitationem fugit voluptatum quasi temporibus tempora quaerat. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima, quos. Facere asperiores porro similique suscipit numquam ab voluptates, dignissimos, qui nam vitae modi assumenda eos mollitia quo soluta aspernatur fuga! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum maiores corrupti et similique maxime, saepe eius modi nulla dolore ipsa aliquid perspiciatis eos non debitis impedit amet ratione necessitatibus ad! </p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam iste, alias nulla optio exercitationem possimus a quas est reiciendis, molestias aperiam modi dicta provident corrupti nisi quod tenetur recusandae placeat.</p>
+    </main>
+    <script>
+        function aparecerMenu(){
+            id.style.display = id.style.display=='block' ? 'none' : 'block' 
+        }
+        function corpo(){
+            if (window.innerHeight>=768){
+                id.style.display = 'block'
+            }else{
+                id.style.display = 'none'
+            }
+        }
+    </script>
+</body>
+</html>
