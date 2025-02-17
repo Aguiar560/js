@@ -1,0 +1,30 @@
+@media screen and (min-width: 769px) and (max-width: 1024px){
+
+section{
+    width: 55vw;
+    height: 55vh;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+}
+@media screen and (min-width: 1024px){
+section{
+     width: 35vw;
+     height: 55vh;
+    }  
+#local1{
+     width: 15vw;
+     height: 5vh;     
+}
+#username2,#senha2{
+    width: 15vw;
+    height: 5vh;
+   
+}
+#entrar{
+    width: 15vw;
+    height: 4vh;    
+}
+}    
