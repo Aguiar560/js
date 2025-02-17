@@ -73,7 +73,7 @@ section{
 }
 footer{
     position: relative;
-    top: 180px;     
+    top: 20vh;     
 }
 footer > a{
     margin-right: 90vw;  
