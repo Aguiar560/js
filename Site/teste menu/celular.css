@@ -1,0 +1,25 @@
+@media screen and (max-width:600px){
+
+nav{
+    display: none;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+nav > a{
+    
+}
+#hamb{
+    display: flex;
+    justify-content: center;
+    background-color: green;
+    padding: 5px;
+    cursor: pointer;
+    color: white;
+}
+#hamb:hover{
+    cursor: pointer;
+    background-color: rgb(1, 90, 1);
+}
+
+}
+

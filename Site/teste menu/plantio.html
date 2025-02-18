@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Teste</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="celular.css">
+    <style>
+        main{
+            height: 100%;
+        }
+        div{
+            display: flex;
+        }
+        div > img{
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Imagem de Fundo</h1>
+    </header>
+    <span id="hamb" class="material-symbols-outlined" onclick="aparecerMenu()">menu</span>
+    <nav id="id">
+        
+        <a href="teste.html">Home</a>
+        <a href="#">Historia</a>
+        <a href="#">Institucional</a>
+        <a href="plantio.html">Plantios</a>
+        <a href="#">Fale conosco</a>
+        <a href="#">Localização</a>
+    </nav>
+    <main>
+    <div>
+        <img src="plantio.jpg" alt="Plantio">
+    </div>
+    </main>
+    <script>
+        function aparecerMenu(){
+            id.style.display = id.style.display=='flex' ? 'none' : 'flex' 
+        }
+        function corpo(){
+            if (window.innerHeight>=500){
+                id.style.display = 'flex'
+            }else{
+                id.style.display = 'none'
+            }
+        }
+    </script>
+</body>
+</html>

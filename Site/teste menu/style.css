@@ -1,0 +1,64 @@
+@charset "UTF-8";
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+header {
+    background-color: green;
+    color: white;
+    text-align: center;
+    line-height: 150px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 200px;
+    background-image: url(Sem\ título.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+body{
+    background-color: rgb(209, 245, 209);
+}
+nav{
+    background-color: green;
+    padding: 10px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+nav > a{
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+nav > a:hover{
+    background-color:  rgb(2, 165, 2);
+}
+main{
+    padding: 20px;
+    width: 50vw;
+    margin: auto;
+    background-color: white;
+    height: 75vh;
+    text-indent: 20px;
+    text-align: justify;
+    line-height: 25px; 
+}
+main > h1{
+    margin-bottom: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: green;
+}
+main > h2{
+    margin: 10px 0px;
+    color: green;
+    
+}
+#hamb{
+    display: none;
+    text-align: center;
+    background-color: green;
+    padding: 5px;
+    cursor: pointer;
+}

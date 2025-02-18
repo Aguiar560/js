@@ -22,7 +22,7 @@ h1{
 nav{
     background-color: lightslategray;
     text-align: center;
-  
+    
 }
 nav > ol > li {
     border: 1px solid rgba(0, 0, 0, 0.295);
