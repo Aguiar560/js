@@ -10,19 +10,19 @@
     <style>
         main{
             height: 100%;
-        }
-        div{
             display: flex;
+            flex-flow: row nowrap;
+            justify-content: center;
         }
-        div > img{
+        main > img{
             width: 100%;
-            height: 100%;
+            
         }
     </style>
 </head>
-<body>
+<body onresize="corpo()">
     <header>
-        <div><img src="Sem título.png" alt="img"></div>
+        <div id="cabeca"><img src="Sem título.png" alt="img"></div>
         <h1>Imagem de Fundo</h1>
     </header>
     <span id="hamb" class="material-symbols-outlined" onclick="aparecerMenu()">menu</span>
@@ -36,16 +36,16 @@
         <a href="#">Localização</a>
     </nav>
     <main>
-    <div>
+    
         <img src="plantio.jpg" alt="Plantio">
-    </div>
+    
     </main>
     <script>
         function aparecerMenu(){
             id.style.display = id.style.display=='flex' ? 'none' : 'flex' 
         }
         function corpo(){
-            if (window.innerHeight>=500){
+            if (window.innerWidth>=600){
                 id.style.display = 'flex'
             }else{
                 id.style.display = 'none'

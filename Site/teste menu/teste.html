@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="celular.css">
 </head>
-<body>
+<body onresize="corpo()">
     <header>
         <div><img src="Sem título.png" alt="img"></div>
         <h1>Imagem de Fundo</h1>
@@ -37,9 +37,9 @@
             id.style.display = id.style.display=='flex' ? 'none' : 'flex' 
         }
         function corpo(){
-            if (window.innerHeight>=500){
+            if (window.innerWidth>=600){
                 id.style.display = 'flex'
-            }else{
+            }else {
                 id.style.display = 'none'
             }
         }
