@@ -8,6 +8,20 @@ nav{
 nav > a{
     
 }
+header{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+header > div{
+    height: 100px;
+    
+}
+header > div > img{
+    width: 100px;
+    height: 100px;
+    
+}
 main{
     width: 100%;
 }
