@@ -36,7 +36,7 @@ nav{
 }
 #hamb:hover{
     cursor: pointer;
-    background-color: rgb(1, 90, 1);
+    background-color: rgb(1, 90, 2);
 }
 header > div {
     display: flex;
