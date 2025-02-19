@@ -1,43 +1,65 @@
 @media screen and (max-width:600px){
-nav{
-    display: none;
-    flex-flow: column nowrap;
-    align-items: center;
-}
+
 
 header{
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
+    justify-content: space-between;
 }
-header > div#cabeca{
-    height: 100px;
-    
-}
-header > div > img{
-    width: 100px;
-    height: 100px;
-    
+header > div{
+    display: flex;
+    align-items: center;
 }
 main{
     width: 100%;
 }
+nav{
+    display: none;
+    flex-flow: column nowrap;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    top: 120px; 
+    left: 0;
+    
+}
 #hamb{
     display: flex;
-    justify-content: center;
-    background-color: green;
+    background-color: #9db18e;
     padding: 5px;
     cursor: pointer;
     color: white;
+    position: absolute;
+    right: 0;
+    margin-right: 5px;
 }
 #hamb:hover{
     cursor: pointer;
     background-color: rgb(1, 90, 1);
+}
+header > div {
+    display: flex;
+    
+}
+main {
+    width: 100%;
+} 
+nav a {
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(1, 75, 1);
+    display: block;
+}
+nav a:hover{
+    background-color: #92b37b;
 }
 }
 @media screen and (max-width:900px){
     main{
         width: 100%;
     }
+    
+    
 }
 
